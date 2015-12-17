@@ -11,6 +11,7 @@ os.path.split('usr/test/uds.txt')
 os.path.splitext('usr/to/file.txt')
 os.path.isdir('de')
 os.path.isfile('de')
+os.path.dirname(__file__)
 os.path.getsize('f')
 os.path.getmtime('d')
 
