@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>please Sign in </title>
+</head>
+<body>
+{% if message %}
+<p style='color:red'>{{ message }}</p>
+{% endif %}
+<form action='/signin' method='post'>
+<p>Name:<input name='user_name' placeholder='input your name' value="{{ username }}"></p>
+<p>Password:<input name='password' placeholder='input password' type="password"></p>
+<p><button type='submit'>Sign In </button></p>
+
+</form>
+</body>
+</html>
